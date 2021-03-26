@@ -1,0 +1,22 @@
+form{
+    /* background-color: bisque; */
+
+    width: 100%;
+    height: 100%;
+    border: 20px red;
+    background-image: url(cay.jpg)   ;
+    background-size: cover;
+    
+    
+};
+
+
+form.solid{
+    border-style: solid;
+    color: blueviolet;
+}
+label.ex1{
+    color: red;
+    margin-top: 10px;
+    text-align: l;
+}

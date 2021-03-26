@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trần Đức Long</title>
+</head>
+<body>
+    <form action="https://604f548bc20143001744cc5c.mockapi.io/submit/form" method="POST">
+        <label>Họ và tên sinh viên</label>
+        <input type="text" name="hoten" maxlength="30" minlength="5">
+        <br>
+        <label>Tuổi sinh viên</label>
+        <input name="tuoi" type="number" min="18" max="30">
+        <br>
+        <label>Giới tính</label>
+        <input type="radio" value="Nu" name="Gioi tinh">
+        <label>Nữ</label>
+        <input type="radio" value="Nam" name="Gioi tinh">
+        <label>Nam</label>
+        <br>
+        <label>Lớp</label>
+        <select name="Lop">
+            <option value="Java">Java</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Python</option>
+        </select>
+        <br>
+        <label>Chức vụ</label>
+        <br>
+        <input type="radio" value="Dev" name="chucvu">
+        <label>Dev</label>
+        <input type="radio" value="Tester" name="chucvu">
+        <label>Tester</label>
+        <br>
+        <input type="radio" value="PM" name="chucvu">
+        <label>PM</label>
+        <input type="radio" value="Techlead" name="chucvu">
+        <label>Techlead</label>
+        <br>
+        <label>Bio</label>
+        <br>
+        <textarea name="Bio" type ="text"> </textarea>
+        <br>
+        <label>Ý tưởng đồ án</label>
+        <br>
+        <textarea name="Ý tưởng đồ án" type ="text"> </textarea>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset"
+
+    </form>
+</body>
+</html>
